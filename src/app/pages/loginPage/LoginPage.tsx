@@ -1,5 +1,6 @@
 import './LoginPage.scss'
 import { Link } from "react-router-dom"
+import Footer from '../../components/footer/Footer'
 
 export default function LoginPage() {
   return (
@@ -14,9 +15,13 @@ export default function LoginPage() {
             <input type="password" placeholder='password'/>
           </div>
           <button>ZALOGUJ</button>
+
+  {/* TEMPORARY LINK */}
+
           <Link to='/home'>LINK</Link>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }
